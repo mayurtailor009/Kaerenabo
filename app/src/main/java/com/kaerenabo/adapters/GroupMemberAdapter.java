@@ -88,14 +88,12 @@ public class GroupMemberAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         String fbImage = "https://graph.facebook.com/v2.11/"+dto.getUserID()+"/picture?type=normal";
         Glide.with(context).load(fbImage).apply(RequestOptions.circleCropTransform()).into(groupMemberViewHolder.ivProfilePic);
 
-        if(dto.getIsAdmin()){
-            groupMemberViewHolder.tvAdmin.setVisibility(View.VISIBLE);
-        }else{
-            groupMemberViewHolder.tvAdmin.setVisibility(View.INVISIBLE);
-        }
-
         if (eventType.equals(Constant.HOME_GROUP)) {
-            groupMemberViewHolder.tvAdmin.setVisibility(View.VISIBLE);
+            if(dto.getIsAdmin()){
+                groupMemberViewHolder.tvAdmin.setVisibility(View.VISIBLE);
+            }else{
+                groupMemberViewHolder.tvAdmin.setVisibility(View.INVISIBLE);
+            }
         }else{
             groupMemberViewHolder.tvAdmin.setVisibility(View.GONE);
         }
