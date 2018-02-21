@@ -152,12 +152,12 @@ public class NeighbourFragment extends Fragment implements View.OnClickListener{
                 public void onEvent(@Nullable QuerySnapshot snapshot,
                                     @Nullable FirebaseFirestoreException e) {
                     pDialog.dismiss();
-                    if (e != null) {
-                        return;
-                    }
                     postList.clear();
                     List<String> ids = getPostUsersIds(groupDTO);
                     tvGroupMember.setText(""+ids.size());
+                    if (e != null) {
+                        return;
+                    }
                     List<PostDTO> types = snapshot.toObjects(PostDTO.class);
                     for(PostDTO dto : types){
                         if(ids.contains(dto.getUserID())){
