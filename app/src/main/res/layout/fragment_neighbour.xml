@@ -12,11 +12,11 @@
         style="@style/tv_headingb"
         android:text="@string/label_global_post" />
 
-    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.kaerenabo.customviews.WrapContentViewPager xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="25dp">
-    </android.support.v4.view.ViewPager>
+        android:layout_height="wrap_content">
+    </com.kaerenabo.customviews.WrapContentViewPager>
     <RelativeLayout
         android:id="@+id/view_neighbour_group"
         android:layout_width="match_parent"
