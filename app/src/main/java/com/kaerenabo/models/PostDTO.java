@@ -2,9 +2,6 @@ package com.kaerenabo.models;
 
 import java.util.Date;
 
-/**
- * Created by mayur.tailor on 27-01-2018.
- */
 
 public class PostDTO {
     private String userID;

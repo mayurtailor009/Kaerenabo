@@ -2,9 +2,7 @@ package com.kaerenabo.models;
 
 import java.util.ArrayList;
 
-/**
- * Created by mayur.tailor on 10-02-2018.
- */
+
 
 public class GloalPostDTO {
     private ArrayList<String> messages;

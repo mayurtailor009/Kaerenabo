@@ -1,8 +1,6 @@
 package com.kaerenabo.models;
 
-/**
- * Created by mayur.tailor on 03-01-2018.
- */
+
 
 public class LocationDTO {
 

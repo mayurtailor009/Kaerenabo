@@ -1,8 +1,5 @@
 package com.kaerenabo.models;
 
-/**
- * Created by mayur.tailor on 02-01-2018.
- */
 
 public enum LoginEnum {
     FB,

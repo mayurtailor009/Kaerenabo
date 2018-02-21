@@ -30,9 +30,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 
-/**
- * Created by mayur.tailor on 17-03-2016.
- */
 public class ImagePicker {
 
     private Activity activity;

@@ -15,9 +15,7 @@ import com.kaerenabo.models.PostDTO;
 
 import java.util.ArrayList;
 
-/**
- * Created by mayur.tailor on 31-05-2016.
- */
+
 public class MontlyEventAdapter extends BaseAdapter {
 
     private Context context;

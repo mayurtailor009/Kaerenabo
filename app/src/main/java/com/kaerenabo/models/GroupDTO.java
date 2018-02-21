@@ -3,9 +3,6 @@ package com.kaerenabo.models;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * Created by mayur.tailor on 21-01-2018.
- */
 
 public class GroupDTO implements Serializable{
 

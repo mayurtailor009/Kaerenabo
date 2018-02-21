@@ -18,9 +18,7 @@ import com.kaerenabo.models.CalendarDTO;
 import java.util.Calendar;
 import java.util.Locale;
 
-/**
- * Created by mayur.tailor on 30-05-2016.
- */
+
 public class CustomCalendarView extends LinearLayout implements View.OnClickListener {
 
     private View view;

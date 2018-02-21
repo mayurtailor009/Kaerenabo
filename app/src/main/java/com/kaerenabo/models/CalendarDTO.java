@@ -2,9 +2,7 @@ package com.kaerenabo.models;
 
 import java.io.Serializable;
 
-/**
- * Created by mayur.tailor on 30-05-2016.
- */
+
 public class CalendarDTO implements Serializable{
 
     private boolean hasEvent;

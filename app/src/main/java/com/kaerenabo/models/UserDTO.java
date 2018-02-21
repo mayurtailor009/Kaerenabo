@@ -2,9 +2,7 @@ package com.kaerenabo.models;
 
 import java.util.ArrayList;
 
-/**
- * Created by mayur.tailor on 21-01-2018.
- */
+
 
 public class UserDTO {
     private String userID;
