@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01A4FF</color>
+    <color name="colorPrimaryDark">#01A4FF</color>
+    <color name="colorAccent">#01A4FF</color>
+    <color name="app_color">#F1F2F6</color>
+    <color name="app_color_dark">#F0D7A6</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="tv_color_gray">#999999</color>
+    <color name="tv_color_gray_dark">#6D6D6D</color>
+    <color name="btn_color">@color/colorPrimary</color>
+    <color name="screen_bg_color">#FFFFFF</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray_label">#7E7E7E</color>
+    <color name="gray_dark_label">#4D4D4D</color>
+
+    <color name="view_color_active">#666666</color>
+    <color name="view_color_inactive">#999999</color>
+    <color name="trans_color">#90999999</color>
+    <color name="disable_color">#F1F2F6</color>
+</resources>

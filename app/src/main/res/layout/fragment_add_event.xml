@@ -1,0 +1,73 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_15"
+    android:background="@color/white"
+    tools:context="com.kaerenabo.fragments.AddEventFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10">
+
+        <TextView
+            style="@style/tv_small"
+            android:text="@string/label_event_title" />
+
+        <EditText
+            android:inputType="textCapWords"
+            android:id="@+id/et_title"
+            style="@style/et_style"
+            android:layout_marginTop="@dimen/margin_2"
+            android:textColor="@color/tv_color_gray_dark"
+            android:textColorHint="@color/tv_color_gray_dark"
+            android:textSize="@dimen/tv_normal" />
+
+        <TextView
+            style="@style/tv_small"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/label_start_date" />
+
+        <EditText
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:id="@+id/et_start_date"
+            style="@style/et_style"
+            android:layout_marginTop="@dimen/margin_5"
+            android:drawableRight="@drawable/calender_event_icon"
+            android:textColor="@color/tv_color_gray_dark"
+            android:textColorHint="@color/tv_color_gray_dark"
+            android:textSize="@dimen/tv_normal" />
+
+        <TextView
+            style="@style/tv_small"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/label_end_date" />
+
+        <EditText
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:id="@+id/et_end_date"
+            style="@style/et_style"
+            android:layout_marginTop="@dimen/margin_5"
+            android:drawableRight="@drawable/calender_event_icon"
+            android:textColor="@color/tv_color_gray_dark"
+            android:textColorHint="@color/tv_color_gray_dark"
+            android:textSize="@dimen/tv_normal" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/btn_style_gray"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/btn_create_event" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

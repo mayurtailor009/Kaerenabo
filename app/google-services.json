@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "869697913883",
+    "firebase_url": "https://kaerenabo-b2e39.firebaseio.com",
+    "project_id": "kaerenabo-b2e39",
+    "storage_bucket": "kaerenabo-b2e39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869697913883:android:2d254e6877533eb5",
+        "android_client_info": {
+          "package_name": "com.kaerenabo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869697913883-i80fo8aqonssjpo79m2nat9mv3k0cfhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMfGnz8Cg6K4ufV6DwdgQ7PWoysIgPIbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

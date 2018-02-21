@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_5"
+        android:id="@+id/ll_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/calendar_button_selector"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:minEms="2"
+            android:paddingBottom="@dimen/margin_top"
+            android:paddingLeft="@dimen/margin_top"
+            android:paddingRight="@dimen/margin_top"
+            android:paddingTop="@dimen/margin_top"
+            android:id="@+id/tv_date"
+            style="@style/tv_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/date_tv_selector"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_strip"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cal_strip_bg" />
+
+</LinearLayout>

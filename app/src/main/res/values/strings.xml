@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Kaerenabo</string>
+    <string name="continue_label">Continue</string>
+    <string name="hello_label">hello</string>
+    <string name="address_label">Address</string>
+
+    <string name="facebook_application_id" translatable="false">892306264269726</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb892306264269726</string>
+
+    <!--<string name="facebook_application_id" translatable="false">378206882638428</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb378206882638428</string>-->
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_neighbour">Neighbour</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="title_send_post">Send a Post</string>
+    <string name="title_create_event">Create an Event</string>
+    <string name="title_calendar_event">Calendar Event</string>
+    <string name="menu_event">Event</string>
+    <string name="menu_close">Close</string>>
+    <string name="label_post_desc">What\'s on your mind?</string>
+    <string name="label_upload_photo">Image? (Optional)</string>
+    <string name="label_send_post">Send Post</string>
+    <string name="btn_continue">Continue</string>
+
+    <string name="label_event_title">Event Detail</string>
+    <string name="label_start_date">Start Date</string>
+    <string name="label_end_date">End Date</string>
+    <string name="btn_create_event">Create Event</string>
+    <string name="label_my_profile">My Profile</string>
+    <string name="label_change_address">Change Address</string>
+    <string name="label_change_lang">Change Language</string>
+    <string name="label_logout">Logout</string>
+    <string name="dialog_label_ok">Ok</string>
+    <string name="dialog_label_cancel">Cancel</string>
+    <string name="dialog_title_alert">Alert</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_message_invalid_location">Your address could not be verified from you current location</string>
+    <string name="label_global_post">Global Post</string>
+    <string name="label_neighbour_group">Neighbour Group</string>
+    <string name="label_home_group">Home Group</string>
+    <string name="label_total_member">Total Members</string>
+    <string name="label_posted_by">Posted by:</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thuesday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="title_group_member">Group Member</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="block_success_msg">User blocked from your list</string>
+    <string name="unblock_success_msg">User unblocked successfully</string>
+    <string name="dialog_logout_msg">Are you sure, you want to logout ?</string>
+    <string name="dialog_logout_title">Logout</string>
+    <string name="label_admin">Admin</string>
+    <string name="label_add_in_group">Add in Group</string>
+    <string name="label_change_to_admin">Change to Admin</string>
+    <string name="label_english">English</string>
+    <string name="label_danish">Danish</string>
+    <string name="location_validation_message">Please enter address</string>
+    <string name="user_as_admin_success">User updated as Admin</string>
+    <string name="user_accepted_success">User added in Group</string>
+    <string name="post_created_success">Post created successfully</string>
+    <string name="event_created_success">Event created successfully</string>
+    <string name="validating_address">Validating address, please wait</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_photo_album">Photo Album</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="dialog_change_lang_message">In order to change the language, the App must be closed and reopened by you.</string>
+    <string name="label_app_restart">App restart required</string>
+    <string name="label_close_now">Close now</string>
+    <string name="approval_pending_msg">Your approval pending from Home Admin</string>
+    <string name="loading">Loading...</string>
+</resources>

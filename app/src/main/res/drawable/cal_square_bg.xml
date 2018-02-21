@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="@color/colorPrimary" />
+<!--
+
+    <corners
+        android:bottomLeftRadius="@dimen/cal_bg_radium"
+        android:bottomRightRadius="@dimen/cal_bg_radium"
+        android:topLeftRadius="@dimen/cal_bg_radium"
+        android:topRightRadius="@dimen/cal_bg_radium" />
+-->
+
+
+</shape>

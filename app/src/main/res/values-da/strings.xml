@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Kaerenabo</string>
+    <string name="continue_label">Blive ved</string>
+    <string name="hello_label">hej</string>
+    <string name="address_label">Adresse</string>
+
+    <!--<string name="facebook_application_id" translatable="false">892306264269726</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb892306264269726</string>-->
+
+    <!--<string name="facebook_application_id" translatable="false">378206882638428</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb378206882638428</string>-->
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="menu_home">Hjem</string>
+    <string name="menu_neighbour">Nabolag</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="title_send_post">Send en besked</string>
+    <string name="title_create_event">Tilføj en begivenhed</string>
+    <string name="title_calendar_event">Kalenderbegivenhed</string>
+    <string name="menu_event">Begivenhed</string>
+    <string name="menu_close">Tæt</string>>
+    <string name="label_post_desc">Hvad tænker du på?</string>
+    <string name="label_upload_photo">Billede? (Valgfrit)</string>
+    <string name="label_send_post">Send besked</string>
+    <string name="btn_continue">Blive ved</string>
+
+    <string name="label_event_title">Detaljer om begivenhed</string>
+    <string name="label_start_date">Startdato</string>
+    <string name="label_end_date">Slutdato</string>
+    <string name="btn_create_event">Opret begivenhed</string>
+    <string name="label_my_profile">Min profil</string>
+    <string name="label_change_address">Adresseændring</string>
+    <string name="label_change_lang">Skift sprog</string>
+    <string name="label_logout">Log ud</string>
+    <string name="dialog_label_ok">Ok</string>
+    <string name="dialog_label_cancel">Annuller</string>
+    <string name="dialog_title_alert">Alert</string>
+    <string name="dialog_title_error">Fejl</string>
+    <string name="dialog_message_invalid_location">Din adresse kunne ikke verificeres, sikre dig at du befinder dig på adressen</string>
+    <string name="label_global_post">Globale beskeder</string>
+    <string name="label_neighbour_group">Nabolaggruppe</string>
+    <string name="label_home_group">Hjemmegruppe</string>
+    <string name="label_total_member">Medlemmer i alt</string>
+    <string name="label_posted_by">Skrevet af:</string>
+    <string name="monday">Man</string>
+    <string name="tuesday">Tir</string>
+    <string name="wednesday">Ons</string>
+    <string name="thuesday">Tor</string>
+    <string name="friday">Fre</string>
+    <string name="saturday">Lør</string>
+    <string name="sunday">Søn</string>
+    <string name="title_group_member">Gruppemedlemmer</string>
+    <string name="block">Bloker</string>
+    <string name="unblock">Fjern blokering</string>
+    <string name="block_success_msg">Bruger blokeret fra din liste</string>
+    <string name="unblock_success_msg">Bruger ublokeret successfully</string>
+    <string name="dialog_logout_msg">Er du sikker på, du vil logge ud?</string>
+    <string name="dialog_logout_title">Log ud</string>
+    <string name="label_admin">Admin</string>
+    <string name="label_add_in_group">Tilføj til gruppe</string>
+    <string name="label_change_to_admin">Skift til Admin</string>
+    <string name="label_english">Engelsk</string>
+    <string name="label_danish">Danish</string>
+    <string name="location_validation_message">Indtast venligst adresse</string>
+    <string name="user_as_admin_success">Bruger opdateret som Admin</string>
+    <string name="user_accepted_success">Bruger tilføjet i gruppe</string>
+    <string name="post_created_success">Beskeden blev oprettet</string>
+    <string name="event_created_success">Begivenheden blev oprettet</string>
+    <string name="validating_address">Verificerer adressen, vent venligst.</string>
+    <string name="label_camera">Kamera</string>
+    <string name="label_photo_album">Fotoalbum</string>
+    <string name="label_cancel">Annuller</string>
+    <string name="dialog_change_lang_message">For at ændre sproget skal du genstarte appen.</string>
+    <string name="label_app_restart">Genstart af appen er påkrævet</string>
+    <string name="label_close_now">Luk nu</string>
+    <string name="approval_pending_msg">Afventer godkendelse af Hjem Admin</string>
+    <string name="loading">Indlæser...</string>
+</resources>

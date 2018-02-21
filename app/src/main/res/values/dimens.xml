@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">22dp</dimen>
+    <dimen name="activity_vertical_margin">22dp</dimen>
+
+
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+
+    <dimen name="tv_headingb">22sp</dimen>
+    <dimen name="tv_heading">20sp</dimen>
+    <dimen name="tv_subheading">18sp</dimen>
+    <dimen name="tv_normal">16sp</dimen>
+    <dimen name="tv_medium">14sp</dimen>
+    <dimen name="tv_small">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <dimen name="event_radius">20dp</dimen>
+    <dimen name="profile_pic_height">100dp</dimen>
+    <dimen name="profile_pic_height_small">35dp</dimen>
+    <dimen name="post_height">120dp</dimen>
+
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_top_small">5dp</dimen>
+    <dimen name="margin_top_big">15dp</dimen>
+    <dimen name="margin_top_big1">20dp</dimen>
+    <dimen name="margin_top_big2">25dp</dimen>
+
+    <!-- MY CALENDAR-->
+    <dimen name="cal_bg_radium">3dp</dimen>
+    <dimen name="cal_stip_width">18dp</dimen>
+    <dimen name="cal_stip_height">2dp</dimen>
+    <dimen name="cal_stip_margin_top">2dp</dimen>
+    <dimen name="dot_width">10dp</dimen>
+    <dimen name="dot_height">10dp</dimen>
+
+    <dimen name="margin_top_picker">20dp</dimen>
+</resources>

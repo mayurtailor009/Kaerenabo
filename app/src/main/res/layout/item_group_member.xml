@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_10">
+    <ImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="@dimen/profile_pic_height_small"
+        android:layout_height="@dimen/profile_pic_height_small"
+        android:src="@drawable/profile_img" />
+    <TextView
+        android:layout_toRightOf="@id/iv_profile_pic"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_name"
+        style="@style/tv_normal"
+        android:text="Mayur" />
+    <TextView
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        style="@style/tv_normal"
+        android:id="@+id/tv_admin"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/label_admin"/>
+</RelativeLayout>
